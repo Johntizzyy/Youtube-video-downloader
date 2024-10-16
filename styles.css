@@ -82,8 +82,6 @@ input::placeholder{
 }
 .main>div>button:hover{
     background: var(--hover);
-    width:100%;
-    display: block;
 }.main>div>button:active{
     background: #3c18da;
 }
@@ -145,8 +143,10 @@ input::placeholder{
     }
 
     ul.nav {
+        display: none;
         flex-direction: column; /* Stack nav items vertically */
         padding: 0; /* Remove padding */
+        margin: auto;
     }
 
     ul.nav li {
